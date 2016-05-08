@@ -19,10 +19,11 @@ The programs takes in a story and creates trigrams from it
 
 Here is a sample story generated from A Christmas Carol:
 
-    in the dining-room, sir, along with you! retorted peter, grinning. it's just as a schoolboy. i am now to you, and i release you. with a thing like a bad lobster in a most illustrious laugh. the father of a thousand thoughts, and hopes, and joys, and cares long, long, forgotten! your lip is trembling, said the ghost. a tremendous family to provide a replacement copy in lieu of a hut, and swiftly they advanced towards it the centre of a thousand odours floating in the hall cried, bring down master scrooge's box, there! and in the air; incoherent sounds of lamentation.
+    in the church, i felt that i should make nothing of the best of it for him said pumblechook, screwing his head was furrowed and bald, and that i would take it away. i had little influence on my shoulder, and saw that both boats were swinging round with me, it was not all stone. but perhaps you know the answer spoilt his joke, and brought him into miss havisham's to mr. pumblechook, leading the way in heaven. he touched me gently on the opposite bank of the parlor ceiling at mill pond bank, herbert and i was born had nothing in.
 
 Another one:
 
-    in the same woman, when old joe, removing his pipe in all walks of life. his face all damaged and scarred with hard weather, as the case was. the brisk fire of questioning to which it was getting dark, and snowing pretty heavily; and as they should be. nobody under the sofa; a small pudding for a moment. this court said scrooge, and you'll keep your christmas by charles dickens this ebook is for the reason why scrooge thought he was struck with death, instead of being made more shabby--compounded some hot mixture in a breezy spot--say saint paul's churchyard for instance.
+    in the same man, remember pursued the ghost, will find him not go stalking about the project gutenberg-tm works. if you were a dog in disgrace. i was not at all hours. i have my own person or entity providing it to my house said the girl; but you were always clean. she was so very confidential together, behind the door, and asked the last time, what would alone have set a man-trap and was beating himself all over with little bottles, joe now sat down in a traveller's rest, what lay hid up to the boy was reading near a sluice-gate.
 
 ###Pretty cool right...
+
