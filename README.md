@@ -17,7 +17,24 @@ The programs takes in a story and creates trigrams from it
     the lazy brown
     lazy brown dog
 
-Here is a sample story generated from A Christmas Carol:
+###The data-structure created from this looks like this:
+    trigrams = {
+        "the quick": ["red"],
+        "quick red": ["fox"],
+        "red fox": ["jumps"],
+        "fox jumps": ["over"],
+        "jumps over": ["the"],
+        "over the": ["lazy"],
+        "the lazy": ["brown"],
+        "lazy brown": ["dog"],
+    }
+    
+###To create a story using A Christmas Story and Great Expectations as its data model type this in the terminal: 
+    ruby runner.rb a_christmas_carol.txt 
+###Or to do the same thing except use the complete works of Shakshere type this:
+    ruby runner.rb shakespeare.txt 
+
+Here is a sample story generated from Charles Dickens novels:
 
     in the church, i felt that i should make nothing of the best of it for him said pumblechook, screwing his head was furrowed and bald, and that i would take it away. i had little influence on my shoulder, and saw that both boats were swinging round with me, it was not all stone. but perhaps you know the answer spoilt his joke, and brought him into miss havisham's to mr. pumblechook, leading the way in heaven. he touched me gently on the opposite bank of the parlor ceiling at mill pond bank, herbert and i was born had nothing in.
 
