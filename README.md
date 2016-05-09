@@ -28,7 +28,17 @@ The programs takes in a story and creates trigrams from it
         "the lazy": ["brown"],
         "lazy brown": ["dog"],
     }
-    
+###To illustrate the value being an array here is another string:
+    "i want chips i want pop i want grapes"
+    # this would be the corresponding hash:
+    trigrams = {
+        "i want": ["chips", "pop", "grapes"],
+        "want chips": "i",
+        "chips i": "want",
+        "want pop": "i",
+        "pop i": "want",
+    }
+
 ###To create a story using A Christmas Story and Great Expectations as its data model type this in the terminal: 
     ruby runner.rb a_christmas_carol.txt 
 ###Or to do the same thing except use the complete works of Shakshere type this:
