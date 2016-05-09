@@ -27,17 +27,15 @@ class Trigram
     end
   end
 
-  def give_trigram(bigram)
-    bigram_hash = @trigrams_hash[bigram.join(" ")]
+  def generate_word(previous_two_words)
+    bigram_hash = @trigrams_hash[previous_two_words.join(" ")]
     word = bigram_hash[(0..bigram_hash.length-1).to_a.sample]
-    word
   end
 
-  def generate_story(initial_bigram, words_in_story)
-    start_words = initial_bigram
-    story = [start_words[0], start_words[1]]
-    words_in_story.times do |i|
-      story << self.give_trigram([story[-2], story[-1]])
+  def generate_story(initial_two_words, story_word_count)
+    story = [initial_two_words[0], initial_two_words[1]]
+    story_word_count.times do |i|
+      story << self.generate_word([story[-2], story[-1]])
     end
     return story.to_s
   end
