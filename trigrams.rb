@@ -15,6 +15,20 @@ class Trigram
     @words = @content.read.split
   end
 
+  def generate_word(previous_two_words)
+    bigram_hash = @trigrams_hash[previous_two_words.join(" ").downcase]
+    word = bigram_hash[(0..bigram_hash.length-1).to_a.sample]
+  end
+
+  def generate_story(initial_two_words, story_word_count)
+    story = [initial_two_words[0], initial_two_words[1]]
+    story_word_count.times do |i|
+      story << self.generate_word([story[-2], story[-1]])
+    end
+    puts story.join(" ")
+    return true
+  end
+
   def populate_trigrams_hash
     counter = 0
     while counter < (@words.length - 3)
@@ -27,17 +41,8 @@ class Trigram
     end
   end
 
-  def generate_word(previous_two_words)
-    bigram_hash = @trigrams_hash[previous_two_words.join(" ")]
-    word = bigram_hash[(0..bigram_hash.length-1).to_a.sample]
-  end
-
-  def generate_story(initial_two_words, story_word_count)
-    story = [initial_two_words[0], initial_two_words[1]]
-    story_word_count.times do |i|
-      story << self.generate_word([story[-2], story[-1]])
-    end
-    return story.to_s
+  def show_trigram(bigram)
+    @trigrams_hash[bigram]
   end
 
 end

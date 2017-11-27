@@ -1,13 +1,12 @@
 require_relative 'trigrams'
 require 'pry'  
 
-filename = ARGV.first
-
+filename = ARGV[1]
 txt = open(filename)
 
 trigram = Trigram.new(txt)
 trigram.analyze_content
-puts trigram.generate_story(["of","a"], 1000).to_s
+trigram.generate_story(["of","a"], 1000)
 binding.pry
 # in console type this...
-trigram.give_trigram(['upon','a'])
+# trigram.generate_story(['upon','a'], 200)
